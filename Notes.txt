@@ -4,6 +4,7 @@ git pull origin main
 
 npm install
 npm install stripe
+npx shadcn@latest add button
 
 #2
 "Neither apiKey nor config.authenticator provided"
@@ -16,3 +17,10 @@ What chat said:
 Basically:
 when a collaborator pulls, it doens't automatically pull the .env as well
 So you have to: manually create the file
+
+#3
+You need to put 
+"images: {
+    domains: ["files.stipe.com"]
+  }"
+in the "next.config.ts" for the API to work
