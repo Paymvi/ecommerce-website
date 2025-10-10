@@ -1,11 +1,9 @@
 
 #1
+git pull origin main
 
-
-
-(copy paste here)
-
-
+npm install
+npm install stripe
 
 #2
 "Neither apiKey nor config.authenticator provided"
