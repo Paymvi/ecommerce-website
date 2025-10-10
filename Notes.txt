@@ -6,6 +6,9 @@ npm install
 npm install stripe
 npx shadcn@latest add button
 
+npm install tailwindcss-animate
+
+
 #2
 "Neither apiKey nor config.authenticator provided"
 
@@ -24,3 +27,14 @@ You need to put
     domains: ["files.stipe.com"]
   }"
 in the "next.config.ts" for the API to work
+
+
+#4
+In case you need to discard local changes before pulling
+
+git reset --hard
+git clean -f
+git pull origin main
+git clean -f -d
+
+
