@@ -1,0 +1,20 @@
+
+#1
+
+
+
+(copy paste here)
+
+
+
+#2
+"Neither apiKey nor config.authenticator provided"
+
+What chat said:
+- process.env.STRIPE_SECRET_KEY is supposed to hold your Stripe secret key.
+- On your machine, you probably set it in a .env file or in your system environment variables.
+- When your collaborator runs the project, that environment variable doesn’t exist on their computer, so process.env.STRIPE_SECRET_KEY is undefined. That’s why Stripe complains
+
+Basically:
+when a collaborator pulls, it doens't automatically pull the .env as well
+So you have to: manually create the file
