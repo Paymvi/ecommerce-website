@@ -38,4 +38,17 @@ git clean -f
 git pull origin main
 git clean -f -d
 
+#5
+Potential Interview Problem in a React environment:
+"How can the manipulation of UI be used to filter a list? Along
+with displaying parts of the UI?"
 
+Answer:
+"A condition statement can be utilized by comparing the user's input
+to the product name/description. However, for proper implementation, 
+the casing of each letter needs to be normalized for accurate results."
+
+Why is this important:
+"It shows your ability to work with States in a
+React environment. As well as your ability to manipulate
+the UI to display your desired task."
