@@ -45,7 +45,11 @@ export const Carousel = ({products = []}: Props) => {
                 <CardTitle className="text-3xl font-bold text-white mb-2">
                     {currentProduct.name}
                 </CardTitle>
-                {price && price.unit_amount && <p>{(price.unit_amount / 100).toFixed(2)}</p>}
+                {price && price.unit_amount && (
+                    <p className="text-xl text-white">
+                        ${(price.unit_amount / 100).toFixed(2)}
+                    </p>
+                )}
             </CardContent>
         </Card>
     );
