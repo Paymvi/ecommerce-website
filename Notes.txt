@@ -11,6 +11,9 @@ npm i @heroicons/react
 
 npx shadcn@latest add card
 
+Use this link for getting test card numbers:
+https://docs.stripe.com/testing
+
 
 #2
 "Neither apiKey nor config.authenticator provided"
